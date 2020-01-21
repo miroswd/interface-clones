@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background-color: #FFF;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #ffb;
+}
+
+ul#dots {
+  display: grid;
+  grid-template-columns: 3(1fr);
+
+  list-style: none;
+  font-size: 30px;
+}
+
