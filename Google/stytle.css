@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -12,15 +14,50 @@ body {
 header nav {
   display: flex;
   flex-direction: row;
+  align-items:center ;
   justify-content: flex-end;
-  background-color: #ffb;
+
+  margin: 20px;
+  
+}
+
+div#menu {
+  margin-right: 20px;
 }
 
 ul#dots {
   display: grid;
-  grid-template-columns: 3(1fr);
+  grid-template-columns: repeat(3,1fr);
+  margin-top:-15px; /*Precisa arrumar isso aqui - usar SVG*/
+}
 
+ul {
   list-style: none;
+}
+
+ul#dots li {
+  line-height: 5px;
   font-size: 30px;
+}
+
+header nav img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+  margin-left: 20px;
+}
+
+ul#google{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-top: 100px;
+
+  font-size: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
