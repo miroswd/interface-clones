@@ -114,7 +114,7 @@ div#utils ul{
 }
 
 div#utils img{
-  display: flex;
+  position: relative;
   width:45px;
   height: 45px;
   border: 12px solid #dddddd80;

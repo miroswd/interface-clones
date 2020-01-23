@@ -30,12 +30,12 @@
   </header>
 
   <ul id="google">
-    <li id="g1">G</li>
-    <li style="color:#DD3C2A">o</li>
-    <li style="color:#EBB100">o</li>
-    <li style="color:#3F7FF6">g</li>
-    <li style="color:#33A351">l</li>
-    <li style="color:#DD3C2A">e</li>
+    <li id="g1" style="color:#3F7FF6" onmouseover="document.querySelector('li#g1').style.color = randomColor()">G</li>
+    <li id="g2" style="color:#DD3C2A" onmouseover="document.querySelector('li#g2').style.color = randomColor()">o</li>
+    <li id="g3" style="color:#EBB100" onmouseover="document.querySelector('li#g3').style.color = randomColor()">o</li>
+    <li id="g4" style="color:#3F7FF6" onmouseover="document.querySelector('li#g4').style.color = randomColor()">g</li>
+    <li id="g5" style="color:#33A351" onmouseover="document.querySelector('li#g5').style.color = randomColor()">l</li>
+    <li id="g6" style="color:#DD3C2A" onmouseover="document.querySelector('li#g6').style.color = randomColor()">e</li>
   </ul>
 
   <div id="search">
@@ -96,9 +96,6 @@
     </ul>
   </div>
 
-<script>
-  const g1 = document.querySelector('li#g1')
-  g1.style.color = '#000'
-</script>
+<script src="index.js"></script>
 </body>
 </html>
