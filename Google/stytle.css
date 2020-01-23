@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,900&display=swap');
 
 * {
   padding: 0;
@@ -18,16 +18,26 @@ header nav {
   justify-content: flex-end;
 
   margin: 20px;
-  
 }
 
 div#menu {
   margin-right: 20px;
 }
 
+header nav a {
+  text-decoration: none;
+  font-size: 13px;
+  color:#333;
+  font-family: 'Roboto', sans-serif;
+}
+
+header nav a:hover{
+  text-decoration: underline;
+}
+
 ul#dots {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3,6px);
   margin-top:-15px; /*Precisa arrumar isso aqui - usar SVG*/
 }
 
@@ -48,6 +58,34 @@ header nav img {
   margin-left: 20px;
 }
 
+
+div#search {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  
+  margin-top: 20px;
+
+}
+
+div#search input {
+  width: 500px;
+  height: 40px;
+  
+  padding:0 50px;
+  
+  border: 1px solid #ddd;
+  border-radius: 50px;
+
+  box-shadow: 0 2px 7px #33333340;
+
+  font-size:18px;
+  color:#555;
+  background: url('http://www.economia.gov.br/agendas/imagens/6945bbe2bb8c06e45f114c9bfcbe0bcd.png/@@images/image.png') no-repeat 10px center;  
+  background-size: 22px 22px;
+  
+}
+
 ul#google{
 
   display: flex;
@@ -61,3 +99,48 @@ ul#google{
   font-weight: 500;
 }
 
+div#utils {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+div#utils ul{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width:500px;
+}
+
+div#utils img{
+  display: flex;
+  width:45px;
+  height: 45px;
+  border: 12px solid #dddddd80;
+  border-radius: 50%;
+}
+
+div#utils li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width:100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+div#utils li span {
+  margin-top:20px;
+  color:#444;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+div#utils li:hover {
+  background-color: #dddddd50;
+  border-radius: 10%;
+  cursor: pointer;
+}

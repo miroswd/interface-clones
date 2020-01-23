@@ -30,20 +30,16 @@
   </header>
 
   <ul id="google">
-    <li>G</li>
-    <li>o</li>
-    <li>o</li>
-    <li>g</li>
-    <li>l</li>
-    <li>e</li>
+    <li id="g1">G</li>
+    <li style="color:#DD3C2A">o</li>
+    <li style="color:#EBB100">o</li>
+    <li style="color:#3F7FF6">g</li>
+    <li style="color:#33A351">l</li>
+    <li style="color:#DD3C2A">e</li>
   </ul>
 
   <div id="search">
     <input type="text" placeholder="Search Google or type a URL"/>
-    <div id="icons">
-      <img src="http://www.economia.gov.br/agendas/imagens/6945bbe2bb8c06e45f114c9bfcbe0bcd.png/@@images/image.png" />
-      <img src="https://cdn3.iconfinder.com/data/icons/glypho-music-and-sound/64/microphone-512.png" />
-    </div>
   </div>
 
   <div id="utils">
@@ -100,5 +96,9 @@
     </ul>
   </div>
 
+<script>
+  const g1 = document.querySelector('li#g1')
+  g1.style.color = '#000'
+</script>
 </body>
 </html>
