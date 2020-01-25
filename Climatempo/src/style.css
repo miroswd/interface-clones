@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #F7F7F7;
+}
+
+
+/* -------- HEADER -------- */
+header{
+  width: 100%;
+  height:85px;
+  background-color: #2C80CD;
+}
+
+.content {
+  max-width: 1150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+/* -------- MENU --------- */
+
+header #menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+header #menu #hamburguer img{
+  width:30px;
+  -webkit-filter: invert(100%);
+}
+
+header #menu .logo {
+  width:120px;
+  height: 31px;
+  margin-left:10px;
+}
+
+
+/* ---------- NAV -------- */
+
+header #list ul  {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+header #list ul li {
+  display:flex;
+  align-items: baseline;
+  /* justify-content: center; */
+  margin-left: 15px;
+}
+
+header #list ul li a {
+  text-decoration: none;
+  color:#FFF;
+  
+}
+
+header #list ul li img{
+  width: 9px;
+  -webkit-filter: invert(100%);
+  margin-left: 5px;
+}
+
+header #list ul li img:hover{
+  cursor: pointer;
+}
+
+
+/* ---- SEARCH-LOGIN ---- */
+
+header #search-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header #search-login #lupa {
+  width: 20px;
+  height: 20px;
+  -webkit-filter:invert(100%);
+
+}
+
+header #search-login a {
+  color:#FFF;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* ----- TEMP-LOCALE ------- */
+
+#temp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+  background-color: #164982;
+  height: 35px;
+  
+}
+
+#temp .icon {
+  width:25px;
+  margin-right: 10px;
+}
+
+#temp .locale {
+  color:#FFF;
+  font-size: 16px;
+}
+
+
+/* ----- ARTICLE ---- */
+
+article{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1170px;
+  
+}
+
+/* ------ WEATHER LOCALE ------- */
+
+article .weather-locale {
+  width: 400px;
+  box-shadow: 1px 10px 10px 1px rgba(0,0,0,0.1);
+  border-radius:5px ;
+  background-color: #FFF;
+
+  margin-right: 10px;
+  padding: 15px;
+}
+
+article span{
+  color:#777;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+article .weather-locale .title {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+article .weather-locale #arrow {
+  width:20px;
+}
+
+article .weather-locale .locale  {
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+article .weather-locale .locale span {
+  font-size: 25px;
+  color:#77B9EB;
+}
+
+article .weather-locale ul{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+  list-style: none;  
+}
+
+article .weather-locale li{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 10px 20px;
+
+  font-size: 13px;
+}
+
+article .weather-locale img{
+  width: 20px;
+}
+
+
+/*  ------- NEWS -------- */
+article .news {
+  background-color: cadetblue;
+}
+
+article .news img {
+  width: 300px;
+}
+
+
+/* ------- TODAY --------- */
+
+article .today {
+  background-color: cornflowerblue;
+}
+
+article .today img {
+  width:20px;
+}
+
+/* ------- TODAY --------- */
+
+article .tomorrow {
+  background-color: lemonchiffon;
+}
+
+article .tomorrow img {
+  width:20px;
+}
+
+/* ------- TODAY --------- */
+
+article .after-tomorrow {
+  background-color: lightsalmon;
+}
+
+article .after-tomorrow img {
+  width:20px;
+}
