@@ -79,86 +79,93 @@
           <img src="../assets/compass.svg" id="arrow"/>
           <span>São Paulo</span>
         </a>
+
       <div class="temp">
-        <img src="https://www.climatempo.com.br/dist/images/2n.png" />
-        <span>19º</span>
-        <span>Muitas nuvens</span>
+        <img src="https://www.climatempo.com.br/dist/images/2n.png" class="icon" />
+        <div class="moment">
+          <span class="now">19º</span>
+          <span>Muitas nuvens</span>
+        </div>
       </div>
 
       <ul>
         <li class="features">
           <span>Sensação</span>
-          <span>19º</span>
+          <span class="value">19º</span>
         </li>
 
         <li class="features">
           <span>Umidade</span>
-          <span>83%</span>
+          <span class="value">83%</span>
         </li>
 
         <li class="features">
           <span>Pressão</span>
-          <span>913 hPa</span>
+          <span class="value">913 hPa</span>
         </li>
 
         <li class="features">
           <span>Vento</span>
-          <span>17 km/h</span>
+          <span class="value">17 km/h</span>
         </li>
       </ul>
 
-      <span>Atualizado às 19:18h</span>
+      <span id="update">Atualizado às 19:18h</span>
     </div>
 
     <div class="news">
       <img src="../assets/chuva.jpeg"/>
-      <span>Últimas notícias</span>
-      <a href="#">Tempestades de janeiro de 2020</a>
-      <p>Saiba os locais onde já choveu mais de 100 mm em 24 horas, segundo o INMET.</p>
+      <div class="content">
+        <a href="#" class="title">Últimas notícias</a>
+        <a href="#">Tempestades de janeiro de 2020</a>
+        <p>Janeiro é sempre marcado pelas chuvas intensas. Saiba os locais onde já choveu mais de 100mm em 24 horas, segundo o INMET.</p>
+      </div>
     </div>
 
-    <a href="#" class="today">
-      <img src="https://www.climatempo.com.br/dist/images/5n.png">
-      <div class="forecast">
-        <span>Hoje</span>
-        <span>Mínima 17º - Máxima 23º</span>
-        <div class="intensity">
-          <img src="../assets/drop.svg"/>
-          <img src="../assets/drop.svg"/>
-          <img src="../assets/drop.svg"/>
-          <span>15mm</span>
+    <div id="next-days">
+      <a href="#" class="today">
+        <img src="https://www.climatempo.com.br/dist/images/5n.png" class="icon">
+        <div class="forecast">
+          <span class="title">Hoje</span>
+          <span class="min-max">Mínima 17º - Máxima 23º</span>
+          <div class="intensity">
+            <img src="../assets/drop.svg" class="first"/>
+            <img src="../assets/drop.svg" class="second"/>
+            <img src="../assets/drop.svg" class="third"/>
+            <span>15mm</span>
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
 
-    <a href="#" class="tomorrow">
-      <img src="https://www.climatempo.com.br/dist/images/2rn.png">
-      <div class="forecast">
-        <span>Amanhã</span>
-        <span>Mínima 17º - Máxima 23º</span>
-        <div class="intensity">
-          <img src="../assets/drop.svg"/>
-          <img src="../assets/drop.svg"/>
-          <img src="../assets/drop.svg"/>
-          <span>0mm</span>
+      <a href="#" class="tomorrow">
+        <img src="https://www.climatempo.com.br/dist/images/6n.png" class="icon">
+        <div class="forecast">
+          <span class="title">Amanhã</span>
+          <span class="min-max">Mínima 20º - Máxima 29º</span>
+          <div class="intensity">
+            <img src="../assets/drop.svg" class="first"/>
+            <img src="../assets/drop.svg" class="second"/>
+            <img src="../assets/drop.svg" class="third"/>
+            <span>65mm</span>
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
 
-    <a href="#" class="after-tomorrow">
-      <img src="https://www.climatempo.com.br/dist/images/6.png">
-      <div class="forecast">
-        <span>Domingo</span>
-        <span>Mínima 17º - Máxima 23º</span>
-        <div class="intensity">
-          <img src="../assets/drop.svg"/>
-          <img src="../assets/drop.svg"/>
-          <img src="../assets/drop.svg"/>
-          <span>32mm</span>
+      <a href="#" class="after-tomorrow">
+        <img src="https://www.climatempo.com.br/dist/images/2r.png" class="icon">
+        <div class="forecast">
+          <span class="title">Segunda</span>
+          <span class="min-max">Mínima 21º - Máxima 27º</span>
+          <div class="intensity">
+            <img src="../assets/drop.svg" class="first"/>
+            <img src="../assets/drop.svg" class="second"/>
+            <img src="../assets/drop.svg" class="third"/>
+            <span>0mm</span>
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
 
+    </div>  
   </article>
 </body>
 </html>
