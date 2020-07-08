@@ -115,11 +115,24 @@ div#utils ul{
 
 div#utils img{
   position: relative;
-  width:45px;
-  height: 45px;
-  border: 12px solid #dddddd80;
-  border-radius: 50%;
+  width:25px;
+  height: 25px;
+  padding: 2px;
 }
+
+
+.background-img {
+  width:40px;
+  height: 40px;
+  background-color: #cccccc50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 50px;
+  
+}
+
 
 div#utils li {
   display: flex;
@@ -129,14 +142,15 @@ div#utils li {
 
   width:100px;
   height: 100px;
-  margin-top: 20px;
+  margin-top: 20px;  
 }
 
 div#utils li span {
   margin-top:20px;
   color:#444;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
+  font-size: 12px;
 }
 
 div#utils li:hover {

@@ -90,12 +90,13 @@ header #search-login {
   justify-content: center;
 }
 
-header #search-login #lupa {
+header #search-login #login {
   width: 20px;
   height: 20px;
   -webkit-filter:invert(100%);
 
 }
+
 
 header #search-login a {
   color:#FFF;
